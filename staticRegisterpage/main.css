@@ -1,0 +1,369 @@
+ body {
+     background-image: url(./imgAssets/bellpep.jpg);
+     background-repeat: no-repeat;
+     background-position: inherit;
+     background-size: cover;
+     font-family: 'Abril Fatface',cursive;
+     font-size: 30pt;
+     width: 100%;
+     height: 100vh;
+     margin: 50px;
+     padding: 50px;
+     display: inherit;
+     
+ }
+
+ body:hover {
+     cursor: pointer;
+ }
+
+ header {
+
+     
+     font-family: 'Josefin Slab', serif;
+     color: black;
+     font-weight: 900;
+     text-align: right;
+     width: 100%;
+     float: right;
+     padding: 2rem 0;
+     margin: 50px;
+
+ }
+
+
+
+ h1 {
+     text-align:left;
+     padding: 0px;
+     margin: 50px;
+ }
+
+
+ h3 {
+     font-family: 'Josefin Slab', serif;
+     font-weight: bold;
+     font-size: 20pt;
+     margin: 50px;
+ }
+
+form {
+    background-color: tomato;
+    border: 10px double black;
+    opacity: 70%;
+    float: left;
+    width: 40%;
+    height: 130vh;
+    font-family:'Josefin Slab', serif;
+    font-size: 20pt;
+    text-align: center;
+    position: inherit;
+    margin: 20px;
+    padding: 50px;
+ } 
+
+ form input {
+     width: 100%;
+     min-width: 75px;
+     box-sizing: border-box;
+     align-content: center;
+     margin: .75rem 1rem;
+     padding: .75rem 1rem;
+     line-height: 1rem;
+     font-size: .75rem;
+     border: 4px double black ;
+     border-radius: 3px;
+ }
+
+ input[type=email]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ input[type=text]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ input[type=password]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ button[type=submit]:focus-within {
+     width: 100%;
+     background-color: rgb(252, 252, 84);
+     border: 4px double black;
+     border-radius: 3px;
+     transition: ease-in-out;
+ }
+
+ button[type=submit]{
+     background-color: turquoise;
+     font-family: 'Abril Fatface', cursive;
+     border: 6px double black;
+     color: black;
+     padding: .75rem 1;
+     text-decoration: none;
+     cursor: pointer;
+     align-content: center;
+     min-width: 325px;
+     margin-top: 50px;
+     margin-left: 40px;
+ }
+
+ input[type=text] {
+     background-color: turquoise;
+     box-shadow: black;
+     border: 5px double black;
+     width: 150%;
+     height: 2rem;
+     font-family: 'Josefin Slab', serif;
+     font-weight:900;
+     margin: 10px;
+     transition: width 0.8s ease-in-out;
+     
+ }
+
+ input[type=email] {
+    background-color: turquoise;
+    box-shadow: black;
+    border: 5px double black;
+    width: 150%;
+    height: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight:900;
+    margin: 10px;
+    transition: width 0.8s ease-in-out;
+   
+ }
+ 
+ 
+
+
+ input[type=password] {
+    background-color: turquoise;
+    box-shadow: black;
+    border: 5px double black;
+    width: 150%;
+    height: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight:900;
+    margin: 10px;
+    transition: width 0.8s ease-in-out;
+    
+ }
+
+
+ .div-zero {
+    position: inherit;
+    width: 60%;
+    align-self: auto;
+
+    
+ }
+
+
+ footer {
+     float: left;
+     position: inherit;
+     margin: 15px;
+     width: inherit;
+  
+ }
+
+ footer img {
+     margin: 0.5rem;
+ }
+
+ footer img:hover {
+     cursor: pointer;
+ }
+ 
+ .div-one {
+     margin: 20px;
+     float: left;
+     font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     padding: 40px;
+     box-sizing: border-box;
+     min-width: 300px;
+ }
+
+ .div-two {
+     margin: 20px;
+     float: left;
+     font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
+     padding: 40px;
+ }
+
+ .div-three {
+     margin: 20px;
+     float: left;
+     font-family:'Abril Fatface',cursive; 
+     position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
+     padding: 40px;
+ }
+
+ .div-four {
+     margin: 20px;
+     float: left;
+     font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
+     padding: 40px;
+ }
+
+ .div-five {
+     position: inherit;
+     top: 500px;
+     left: -300px;
+}
+
+.div-six {
+ 
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-seven {
+    
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin-bottom: 40px;
+    
+
+    
+}
+
+.div-eight{
+    float: right;
+    background-color: turquoise;
+    opacity: 70%;
+    position: inherit;
+    width: 350px;
+    height:1700px;
+    align-self: center;
+    border: 10px double black;
+    margin: 50px;
+    padding: 70px;
+}
+
+.div-nine {
+    width: 75%;
+    height: inherit;
+    margin: 10px 10px;
+    padding: 40px;
+    box-sizing: content-box;
+    min-width: 300px;
+   
+}
+
+.div-ten {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-eleven {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+} 
+
+.div-twelve {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-thirteen {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-fourteen {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+
+.imgDiv {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.imgapple {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+    
+}
+
+#sub {
+    text-decoration-style: wavy;
+    text-size-adjust: 50% ;
+}
+
+.rnbwfrt {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.orange {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.limes {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.citrus {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.tomato {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black; 
+}
