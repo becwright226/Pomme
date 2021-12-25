@@ -4,15 +4,103 @@ margin: 5px;
 
 }
 
-.hair {
+.hairleft {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(40deg) skew(30deg);
+}
 
+.haircent {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 43px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(75deg) skew(30deg);
+}
+
+.tuft {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100% 3px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: -20px;
+    margin-left: 55px;
+    transform: rotate(135deg);
+    
+}
+
+.hairright {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 53px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(45deg) skew(30deg);
+}
+
+.haircentleft {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 60px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(45deg) skew(30deg);
+}
+
+.haircentright {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 63px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(110deg) skew(30deg);
+}
+
+.hairfarright {
+    width: 25px;
+    height: 6px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 72px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(120deg) skew(30deg);
 }
 
 .base {
 
 width: 110px;
 height: 130px;
-border: 2px solid black;
+border: .5px solid black;
 background-color: #558f1f;
 border-radius: 180px;
 margin: 10px;
@@ -130,7 +218,7 @@ margin: 0 auto;
 }
 
 .wrinkleright {
-    
+
 }
 
 .nose  {
