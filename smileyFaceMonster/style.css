@@ -222,7 +222,7 @@ margin: 0 auto;
     border-radius: 100% 8px ;
     z-index: 1;
     position: absolute;
-    background-color: #e0e95f;
+    background-color: #90af5f;
     margin-top: 10px;
     margin-left: 33px;
     
@@ -321,20 +321,56 @@ margin: 0 auto;
     z-index: 1 ;
     position: absolute;
     background-color: #558f1f;
-    margin-top: -50px;
+    margin-top: -52px;
     margin-left: -1px;
     transform: rotate(185deg); 
 }
-.shldrhr1-l {
-
+.shldr1-l {
+    width: 65px;
+    height: 15px;
+    margin-top: -32px;
+    margin-left: 12px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(-120deg) skew(30deg);
 }
 
-.shldrhr2-l {
-
+.shldr2-l {
+    width: 45px;
+    height: 15px;
+    margin-top: -52px;
+    margin-left: 22px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform: rotate(55deg) skew(30deg);
 }
 
-.shldrhr3-l {
+.shldr3-r {
+    width: 45px;
+    height: 15px;
+    margin-top: -52px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform: rotate(-55deg) skew(30deg);
+}
 
+.shldr4-r{
+    width: 65px;
+    height: 15px;
+    margin-top: -32px;
+    margin-left: 35px;
+    border: 1px solid black;
+    border-radius: 100% 5px ;
+    position: absolute;
+    background-color: #558f1f;
+    transform:rotate(120deg) skew(30deg);
 }
 .uprarm-l {
 
@@ -348,7 +384,18 @@ margin: 0 auto;
     transform: rotate(-55deg);
 
 }
-
+.elbow-l {
+    width: 32px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100% 3px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: 5px;
+    margin-left: -60px;
+    transform: rotate(70deg);
+}
 .lwrarm-l {
     width: 75px;
     height: 15px;
@@ -447,7 +494,7 @@ margin: 0 auto;
     z-index: 1 ;
     position: absolute;
     background-color: #558f1f;
-    margin-top: -115px;
+    margin-top: -125px;
     margin-left: 80px;
     transform: rotate(60deg); 
     position: absolute;
@@ -463,6 +510,19 @@ margin: 0 auto;
     margin-left: 85px ;
     transform: rotate(55deg);
     position: absolute;
+}
+
+.elbow-r {
+    width: 32px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100% 3px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: -43px;
+    margin-left: 140px;
+    transform: rotate(180deg);
 }
 
 .lwrarm-r {
@@ -660,11 +720,106 @@ margin: 0 auto;
 }
 
 .uprleg-l {
+    width: 95px;
+    height: 45px;
+    border: 0.5px solid black;
+    background-color: #93c93c;
+    border-radius: 70px;
+    margin-top: 8px;
+    margin-left: -15px ;
+    transform: rotate(-95deg) skew(-35deg);
+
 
 }
 
-.uprleg-r {
+.knee-l {
+    width: 55px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100% 3px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: 0px;
+    margin-left: 5px;
+    transform: rotate(49deg); 
+    position: absolute;
+}
 
+.lwrleg-l {
+    width: 95px;
+    height: 30px;
+    border: 0.5px solid black;
+    background-color: #93c93c;
+    border-radius: 70px;
+    margin-top: 35px;
+    margin-left: -15px ;
+    transform: rotate(-90deg) skew(-35deg);
+}
+
+.foot-l {
+    width: 55px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50% 1px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: 10px;
+    margin-left: -10px;
+    transform: rotate(18deg) skew(-30deg);
+}
+
+
+
+.uprleg-r {
+    width: 95px;
+    height: 45px;
+    border: 0.5px solid black;
+    background-color: #93c93c;
+    border-radius: 70px;
+    margin-top: -120px;
+    margin-left: 45px ;
+    transform: rotate(95deg) skew(35deg);
+}
+
+.knee-r {
+    width: 55px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100% 3px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: 0px;
+    margin-left: 60px;
+    transform: rotate(-15deg); 
+    position: absolute;
+}
+
+.lwrleg-r {
+    width: 95px;
+    height: 30px;
+    border: 0.5px solid black;
+    background-color: #93c93c;
+    border-radius: 70px;
+    margin-top: 40px;
+    margin-left: 43px ;
+    transform: rotate(-90deg) skew(35deg);
+
+}
+
+.foot-r {
+    width: 55px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50% 1px ;
+    z-index: 1 ;
+    position: absolute;
+    background-color: #558f1f;
+    margin-top: 10px;
+    margin-left: 82px;
+    transform: rotate(18deg) skew(-30deg);
 }
 
 .left {
